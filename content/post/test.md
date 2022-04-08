@@ -1,6 +1,6 @@
 +++
-title = "(Hu)go Template Primer"
-description = ""
+title = "Artical Test 1"
+description = "this is very helpful artical for testing purpose."
 tags = [
     "test",
     "post",
@@ -13,6 +13,8 @@ categories = [
 ]
 +++
 
+# Heading For articale
+
 Hello World
 
 *This is Post One*
@@ -21,3 +23,7 @@ Hello World
 - 123
 - 345
 - 678
+
+1 number list
+2 And thats awesome
+3 Yeah i know
