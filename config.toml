@@ -1,3 +1,46 @@
-title = "My New Hugo Site"
-baseurl = "http://example.org/"
+title = "Onepress Example Site"
+baseurl = "https://ahmedmujtabanizamani.github.io/myweb/"
 languageCode = "en-us"
+description = "a Blog by Jeremiah Succeed"
+config = "config.toml"
+tags = ["blog", "sidebar", "SEO"]
+theme = "onepress"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = " "
+# Disable comments by leaving disqusShortname empty
+disqusShortname = "your disqus shortname"
+copyright = "Copyright © 2019, Jeremiah Succeed; all rights reserved."
+canonifyURLS = true
+paginate = 12
+
+[params]
+	author = "Jeremiah Succeed"
+        bio = "Fullstack web developer and Templates designer."
+	logo = "/images/onepress-logo.png"
+	avatar = "/images/onepress-author.png"
+	opengraphImage = "/images/onepress-logo.jpg"
+	enableRSS = true
+
+	customCSS = false
+        readMore = "Read Up"
+    
+    # Social
+	twitter  = "https://twitter.com/ijsucceed"
+	github   = "https://github.com/ijsucceed"
+	facebook  = ""
+        linkedin  = ""
+
+    
+    # Widget
+    widgets = true
+    
+    # Author box and Share button
+    authorCard = false 
+    shareButton = true
+    
+    # Code highlighting with highlight.js
+    highlightJS = true
+
+# Taxonomies
+[taxonomies]
+    tag = "tags"
