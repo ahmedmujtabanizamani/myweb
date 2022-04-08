@@ -1,9 +1,9 @@
 +++
 title = "Artical Test 1"
-author: "Ahmed Mujtaba"
+author = "Ahmed Mujtaba"
 description = "this is very helpful artical for testing purpose."
-linktitle: "Creating a New Theme"
-featuredImage: "https://getwallpapers.com/wallpaper/full/a/f/6/1253963-top-computer-programming-wallpaper-1920x1080-for-android-tablet.jpg"
+linktitle = "Creating a New Theme"
+featuredImage = "https://getwallpapers.com/wallpaper/full/a/f/6/1253963-top-computer-programming-wallpaper-1920x1080-for-android-tablet.jpg"
 tags = [
     "test",
     "post",
