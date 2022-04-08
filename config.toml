@@ -1,14 +1,12 @@
-title = "Onepress Example Site"
-baseurl = "https://ahmedmujtabanizamani.github.io/myweb/"
+baseURL = "https://github.com/ahmedmujtabanizamani/myweb"
 languageCode = "en-us"
+title = "Onepress Example Site"
 description = "a Blog by Jeremiah Succeed"
-config = "config.toml"
-tags = ["blog", "sidebar", "SEO"]
 theme = "onepress"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = " "
+googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
-disqusShortname = "your disqus shortname"
+disqusShortname = ""
 copyright = "Copyright © 2019, Jeremiah Succeed; all rights reserved."
 canonifyURLS = true
 paginate = 12
@@ -16,17 +14,17 @@ paginate = 12
 [params]
 	author = "Jeremiah Succeed"
         bio = "Fullstack web developer and Templates designer."
-	logo = "/images/onepress-logo.png"
-	avatar = "/images/onepress-author.png"
-	opengraphImage = "/images/onepress-logo.jpg"
+	logo = "images/logo.png"
+	avatar = "images/logo.png"
+	opengraphImage = "images/logo.png"
 	enableRSS = true
-
+	subscribeLink = "https://github.com/ijsucceed/onepress/blob/master/README.md#subscribe-link"
 	customCSS = false
         readMore = "Read Up"
     
     # Social
-	twitter  = "https://twitter.com/ijsucceed"
-	github   = "https://github.com/ijsucceed"
+	twitter  = "https://twitter.com/username"
+	github   = "https://github.com/username"
 	facebook  = ""
         linkedin  = ""
 
@@ -44,3 +42,4 @@ paginate = 12
 # Taxonomies
 [taxonomies]
     tag = "tags"
+
