@@ -1,10 +1,11 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+title = "About Author"
+date = "2022-04-09"
 menu = "main"
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+Ahmed is the **Web Developer and Software Engineer**. He lives in Pakistan.
+And He is making this site using **Hugo Framework World's Fastest website build Framework***.
 
 It makes use of a variety of open source projects including:
 
