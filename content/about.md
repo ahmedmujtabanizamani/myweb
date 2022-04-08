@@ -1,6 +1,6 @@
 +++
 title = "About Hugo"
-date = "2014-04-09"
+date = "2022-04-08"
 menu = "main"
 +++
 
@@ -16,3 +16,4 @@ It makes use of a variety of open source projects including:
 
 Learn more and contribute on [GitHub](https://github.com/gohugoio).
 
+# Keep That in mind
