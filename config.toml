@@ -1,4 +1,4 @@
-baseURL = "http://192.168.8.200/"
+baseURL = "https://github.com/ahmedmujtabanizamani/myweb"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-identity-theme"
