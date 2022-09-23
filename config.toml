@@ -1,6 +1,10 @@
 baseURL = 'https://ahmedmujtabanizamani.github.io/myweb/'
 languageCode = 'en-US'
+<<<<<<< HEAD
 title = 'Hugo and Stork'
+=======
+title = 'Hugo plus Stork'
+>>>>>>> 655c8d726379335b3780af5e2a54d7c42992751a
 
 disableKinds = ['RSS','sitemap','taxonomy','term']
 enableGitInfo = true
