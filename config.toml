@@ -8,7 +8,7 @@ enableGitInfo = true
 
 [outputFormats.stork]
 mediaType = 'application/json'
-baseName = 'stork.config'
+baseName = 'myweb/stork.config'
 isPlainText = true
 
 [outputs]
