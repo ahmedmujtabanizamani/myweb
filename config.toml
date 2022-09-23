@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-US'
-title = 'Hugo + Stork'
+title = 'Hugo plus Stork'
 
 disableKinds = ['RSS','sitemap','taxonomy','term']
 enableGitInfo = true
