@@ -1,45 +1,14 @@
-baseURL = "https://ahmedmujtabanizamani.github.io/myweb/"
-languageCode = "en-us"
-title = "Nizamani"
-description = "a Blog By Ahmed Mujtaba"
-theme = "onepress"
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
-# Disable comments by leaving disqusShortname empty
-disqusShortname = ""
-copyright = "Copyright © 2022, Ahmed Mujtaba; all rights reserved."
-canonifyURLS = true
-paginate = 12
+baseURL = 'https://example.org/'
+languageCode = 'en-US'
+title = 'Hugo + Stork'
 
-[params]
-	author = "Ahmed Mujtaba"
-        bio = "Fullstack web developer and Software Engineer."
-	logo = "images/logo.png"
-	avatar = "images/logo.png"
-	opengraphImage = "images/logo.png"
-	enableRSS = true
-	subscribeLink = "#"
-	customCSS = false
-        readMore = "Thora More"
-    
-    # Social
-	twitter  = ""
-	github   = "https://github.com/ahmedmujtabanizamani"
-	facebook  = "https://fb.com/mujtaba.nix"
-        linkedin  = "https://www.linkedin.com/in/ahmed-mujtaba-540925213/"
+disableKinds = ['RSS','sitemap','taxonomy','term']
+enableGitInfo = true
 
-    
-    # Widget
-    widgets = true
-    
-    # Author box and Share button
-    authorCard = true 
-    shareButton = true
-    
-    # Code highlighting with highlight.js
-    highlightJS = true
+[outputFormats.stork]
+mediaType = 'application/json'
+baseName = 'stork.config'
+isPlainText = true
 
-# Taxonomies
-[taxonomies]
-    tag = "tags"
-
+[outputs]
+home = ['html','stork']
