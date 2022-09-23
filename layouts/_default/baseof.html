@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+  <meta name="description" content="{{ or .Description .Summary site.Home.Description }}">
+  {{ partial "head/title.html" . }}
+  <link rel="stylesheet" href="https://files.stork-search.net/releases/v1.4.2/basic.css">
+  {{ partialCached "head/css.html" . }}
+  <link rel="preload" as="fetch" href="{{ "/stork.index.json" | relLangURL }}" crossorigin="anonymous">
+</head>
+<body>
+<header>
+  <h1><a href="{{ site.Home.RelPermalink }}">Hugo + Stork</a></h1>
+  {{ if ne .Type "tests" }}
+    <div class="stork-wrapper">
+      <input data-stork="site" class="stork-input" placeholder="Search">
+      <div data-stork="site-output" class="stork-output"></div>
+    </div>
+  {{ end }}
+</header>
+
+{{ block "main" . }}
+
+{{ end }}
+
+{{ if ne .Type "tests" }}
+  <script src="https://files.stork-search.net/releases/v1.4.2/stork.js"></script>
+  <script>
+    stork.register(
+      'site',
+      '{{ "/stork.index.json" | relLangURL }}'
+    )
+  </script>
+{{ end }}
+
+</body>
+</html>
