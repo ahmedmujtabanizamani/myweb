@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-20.04
     env:
-      HUGO_BASEURL: https://jmooring.github.io/hugo-stork/
+      HUGO_BASEURL: https://ahmedmujtabanizamani.github.io/myweb/
     steps:
       - uses: actions/checkout@v2
         with:
