@@ -2,7 +2,7 @@
   <main>
     {{ .Content }}
     {{ $p := where site.RegularPages "Type" "in" "['articles', 'quotes']" }}
-    {{ range (.Paginate $p.ByTitle 5).Pages.ByLastmod }}
+    {{ range (.Paginate $p.ByTitle 5).Pages.Reverse }}
       <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
       {{ .Summary }}
       {{ if .Truncated }}
