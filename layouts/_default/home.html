@@ -1,7 +1,7 @@
 {{ define "main" }}
   <main>
     {{ .Content }}
-    {{ $p := where site.RegularPages "Type" "articles" }}
+    {{ $p := where site.RegularPages "Type" "quotes" }}
     {{ range (.Paginate $p.ByTitle 5).Pages }}
       <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
       {{ .Summary }}
